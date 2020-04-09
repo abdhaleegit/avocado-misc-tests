@@ -5,5 +5,5 @@ This test needs to be run as root.
 
 Inputs Needed (in 'multiplexer' file):
 --------------------------------------
-wwids - wwids can be fetched from multipath -ll or lsscsi -u commands.
+wwids - wwids can be fetched from multipath -ll or lsscsi -u commands. spaace seprated
 PCI_devices -   PCI Device entry got from 'lspci' command.

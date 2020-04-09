@@ -5,6 +5,7 @@ the type of FSPs used on switch port or on adapter ports for connections.
 And also this test applicable only for Brocade Switches.
 
 parameters:
+wwids: space separated wwids
 switch_name : FC Switch name/ip
 userid : FC switch user name to login
 password : FC switch password to login
