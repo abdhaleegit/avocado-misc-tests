@@ -109,6 +109,8 @@ class HtxNicTest(Test):
         elif detected_distro.name == 'SuSE':
             packages.extend(['libncurses5', 'gcc-c++',
                             'ncurses-devel', 'tar', 'wget'])
+            if int(detected_distro.version) == 15:
+                packages = ['libncurses6' if item == 'libncurses5' else item for item in packages]
         else:
             self.cancel("Test not supported in  %s" % detected_distro.name)
 
